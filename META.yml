@@ -1,0 +1,29 @@
+---
+abstract: 'An ORLite-based ORM Database API'
+author:
+  - 'Adam Kennedy <adamk@cpan.org>'
+build_requires:
+  LWP::Online: 1.07
+  Test::More: 0.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.48
+distribution_type: module
+generated_by: 'Module::Install version 0.81'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: ORDB::CPANUploads
+name: ORDB-CPANUploads
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  ORLite::Mirror: 1.12
+  perl: 5.8.5
+resources:
+  ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/ORDB-CPANUploads
+  license: http://dev.perl.org/licenses/
+  repository: http://svn.ali.as/cpan/trunk/ORDB-CPANUploads
+version: 0.01
